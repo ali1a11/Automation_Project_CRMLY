@@ -40,7 +40,7 @@ Feature: User should be able to add link, insert video, mention, quote, add tag 
       | Helpdesk       |
       | Human Resource |
 
-  @CRMLYEUG-1419
+  @regression @CRMLYEUG-1419
   Scenario Outline: The user adds Quotes into the message
     Given the user is on the main page of Activity Stream as a "<userType>"
     When the user types into MESSAGE text inputbox
