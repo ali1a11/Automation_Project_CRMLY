@@ -2,7 +2,7 @@
 Feature: User should be able to add link, insert video, mention, quote, add tag in message.
   User Story: As a user, I should be able to add link, insert video, mention, quote, add tag in message.
 
-  @CRMLYEUG-1416
+  @smoke @CRMLYEUG-1416
   Scenario Outline: The user can add mentions about only department employees
     Given the user is on the main page of Activity Stream as a "<userType>"
     When the user types into MESSAGE text inputbox
@@ -14,7 +14,7 @@ Feature: User should be able to add link, insert video, mention, quote, add tag 
       | Helpdesk       |
       | Human Resource |
 
-  @CRMLYEUG-1417
+  @smoke @CRMLYEUG-1417
   Scenario Outline: The user adds mentions into the message
     Given the user is on the main page of Activity Stream as a "<userType>"
     When the user types into MESSAGE text inputbox
