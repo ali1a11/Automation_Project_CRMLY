@@ -27,7 +27,7 @@ Feature: User should be able to add link, insert video, mention, quote, add tag 
       | Helpdesk       |
       | Human Resource |
 
-  @CRMLYEUG-1418
+  @regression @CRMLYEUG-1418
   Scenario Outline:  The user attaches a link to the specified text in message
     Given the user is on the main page of Activity Stream as a "<userType>"
     When the user types into MESSAGE text inputbox
