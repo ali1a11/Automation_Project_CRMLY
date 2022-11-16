@@ -1,5 +1,5 @@
 @CRMLYEUG-1433
-Feature:
+Feature: User should be able to add link, insert video, mention, quote, add tag in message.
   User Story: As a user, I should be able to add link, insert video, mention, quote, add tag in message.
 
   @CRMLYEUG-1416
